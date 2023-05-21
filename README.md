@@ -22,6 +22,8 @@ As long as `have_posts()` continues to be true, the loop will continue
 
 ### Tasks ✍️ 
 - [x] create WP Website via Local Development Tool :computer_mouse: [Download Local here](https://localwp.com/)
+
+
 - [x] create 23 items between files and folders within `wp-content/themes/hamlet`:
 * `classes` folder
 * `inc` folder
@@ -44,6 +46,8 @@ As long as `have_posts()` continues to be true, the loop will continue
 *  `assets` folder with 4 subfolders:
      * `css`, `fonts`, `images`, `js`;
 - [x] create repository for this project and push it via GitHub Desktop :computer_mouse:[Download here](https://desktop.github.com/)
+
+
 - [x] from this file path (belonging to the HTML template) `theme-template/css/style.css`
 , copy this stylesheet and paste it all inside `hamlet/style.css` and add theme information for example author's name that will be displayed on WP back end 
 - [x] add image to **Hamlet theme** and name it screenshot.png 🖼️ and it will show up on WP back end by clicking on *Appearance > Themes* then activate **Hamlet theme** 🚀
@@ -55,6 +59,12 @@ As long as `have_posts()` continues to be true, the loop will continue
 - [x] the cut content in `front-page.php` is replaced by the functions `get_header();` and `get_footer();`so WP loads the 2 parts of the website dynamically 
 - [x] add page title to load dynamically with function `hamlet_theme_support` in `functions.php` 
 - [x] create WP loop in `front-page.php`and it will display the content of the only page created up to this point that is *"Home Sweet Home"* that I set to be the homepage
+- [x] make the page title heading dynamic by replacing it with PHP `the_title();` in `header.php` so in this case it will output *"Home Sweet Home"*
+- [x] create WP menus with function `hamlet_menus` in `functions.php` <br>
+🖱️ The path *Appearance > Menus* is now created on WP back end
+- [x] make the primary WP menu dynamic and copy the styles of `<ul>, <li>, <i>, <a>` from the HTML template (to add the styling for the anchor tag, I replace `.nav-link` with `a` in `style.css`)
+- [x] add and customize site logo in `functions.php`
+- [x] output site logo in `header.php`
 
 
 
