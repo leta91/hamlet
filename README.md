@@ -24,7 +24,7 @@ As long as `have_posts()` continues to be true, the loop will continue
 - [x] create WP Website via Local Development Tool :computer_mouse: [Download Local here](https://localwp.com/)
 
 
-- [x] create 23 items between files and folders within `wp-content/themes/hamlet`:
+- [x] create 23 items between files and folders 📁 within `wp-content/themes/hamlet`:
 * `classes` folder
 * `inc` folder
 * `theme-template` folder **(cointains HTML & CSS template)**
@@ -39,7 +39,7 @@ As long as `have_posts()` continues to be true, the loop will continue
 * `page.php`
 * `README.md`
 * `search.php`
-* `single.php`
+* `single.php` ➡️ **(responsible for single posts)**
 * `style.css`
 * `screenshot.png`
 * `front-page.php`
@@ -65,6 +65,11 @@ As long as `have_posts()` continues to be true, the loop will continue
 - [x] make the primary WP menu dynamic and copy the styles of `<ul>, <li>, <i>, <a>` from the HTML template (to add the styling for the anchor tag, I replace `.nav-link` with `a` in `style.css`)
 - [x] add and customize site logo in `functions.php`
 - [x] output site logo in `header.php`
+- [x] load site name dynamically in `header.php`
+- [x] in `functions.php` add option to have **featured image** on posts with `add_theme_support('post-thumbnails')`
+- [x] copy full content of `front-page.php` into `single.php`<br>
+This will display each post with its content instead of blank pages
+
 
 
 
