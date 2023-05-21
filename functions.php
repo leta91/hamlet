@@ -1,20 +1,35 @@
 <?php
 
-/* START - to have WP load dynamically the title tag
-and it works as long as wp_head(); is in header.php
-*/
+/* to have WP load dynamically the title tag
+and it works as long as wp_head(); is in header.php */
 
 function hamlet_theme_support() {
     add_theme_support('title-tag');
-}
+    add_theme_support('custom-logo');  // adding option to add and customize logo from WP back end 
+}                                                      
 
 add_action('after_setup_theme', 'hamlet_theme_support');
 
-// END - to have WP load dynamically the title tag
+
+
+// to add WP menus
+
+function hamlet_menus(){
+
+    $locations = array(
+        'primary' => "Desktop Primary Left Sidebar",
+        'footer' => "Footer Menu Items"
+    );
+
+    register_nav_menus($locations);
+}
+
+add_action('init', 'hamlet_menus');
 
 
 
-// START - to register and enqueue style.css, bootstrap and font awesome 
+
+// to register and enqueue style.css, bootstrap and font awesome 
 
 function hamlet_register_styles(){
 
@@ -40,10 +55,10 @@ function hamlet_register_styles(){
 
 add_action('wp_enqueue_scripts', 'hamlet_register_styles');
 
-// END - to register and enqueue style.css, bootstrap and font awesome
 
 
-// START - to register and enqueue scripts
+
+// to register and enqueue scripts
 
 function hamlet_register_scripts(){
 
@@ -62,7 +77,5 @@ function hamlet_register_scripts(){
 }
 
 add_action('wp_enqueue_scripts', 'hamlet_register_scripts');
-
-// END - to register and enqueue scripts
 
 ?>
