@@ -12,6 +12,14 @@ The mandatory files for a Wordpress theme are:
 - index.php *(in case WP cannot find a certain template, WP will use this file as fallback)*
 - style.css 
 
+Regarding the **WP loop** put in `front-page.php`: 
+
+1. The `have_posts()` function checks whether there are any posts
+2. If there are posts, a `while` loop continues to execute as long as the condition in the parenthesis is logically true
+As long as `have_posts()` continues to be true, the loop will continue
+
+*Because you do not want to duplicate your header over and over, the loop should always be placed after the call to `get_header()`*
+
 ### Tasks ✍️ 
 - [x] create WP Website via Local Development Tool :computer_mouse: [Download Local here](https://localwp.com/)
 - [x] create 23 items between files and folders within `wp-content/themes/hamlet`:
@@ -46,7 +54,7 @@ The mandatory files for a Wordpress theme are:
 - [x] add content from `front-page.php` into `header.php` and `footer.php`  
 - [x] the cut content in `front-page.php` is replaced by the functions `get_header();` and `get_footer();`so WP loads the 2 parts of the website dynamically 
 - [x] add page title to load dynamically with function `hamlet_theme_support` in `functions.php` 
-
+- [x] create WP loop in `front-page.php`and it will display the content of the only page created up to this point that is *"Home Sweet Home"* that I set to be the homepage
 
 
 
