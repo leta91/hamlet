@@ -13,8 +13,8 @@ The mandatory files for a Wordpress theme are:
 - style.css 
 
 ### Tasks ✍️ 
-- [x] Create WP Website via Local Development Tool :computer_mouse: [Download Local here](https://localwp.com/)
-- [x] Create 23 items between files and folders within `wp-content/themes/hamlet`:
+- [x] create WP Website via Local Development Tool :computer_mouse: [Download Local here](https://localwp.com/)
+- [x] create 23 items between files and folders within `wp-content/themes/hamlet`:
 * `classes` folder
 * `inc` folder
 * `theme-template` folder **(cointains HTML & CSS template)**
@@ -35,14 +35,17 @@ The mandatory files for a Wordpress theme are:
 * `front-page.php`
 *  `assets` folder with 4 subfolders:
      * `css`, `fonts`, `images`, `js`;
-- [x] Create repository for this project and push it via GitHub Desktop :computer_mouse:[Download here](https://desktop.github.com/)
-- [x] From this file path (belonging to the HTML template) `theme-template/css/style.css`
+- [x] create repository for this project and push it via GitHub Desktop :computer_mouse:[Download here](https://desktop.github.com/)
+- [x] from this file path (belonging to the HTML template) `theme-template/css/style.css`
 , copy this stylesheet and paste it all inside `hamlet/style.css` and add theme information for example author's name that will be displayed on WP back end 
-- [x] Add image to **Hamlet theme** and name it screenshot.png 🖼️ and it will show up on WP back end by clicking on *Appearance > Themes* then activate **Hamlet theme** 🚀
+- [x] add image to **Hamlet theme** and name it screenshot.png 🖼️ and it will show up on WP back end by clicking on *Appearance > Themes* then activate **Hamlet theme** 🚀
 - [x] copy file from `theme-template/index.html` and paste its code into `hamlet/front-page.php`
-- [x] Register and enqueue styles and scripts in `functions.php`
-- [x] Replace styles and scripts on `front-page.php` with `wp_head();` and `wp_footer();` 
-- [x] copy file from `theme-template/js/main.js` and paste this JavaScript file into `assets/js`   
+- [x] register and enqueue styles and scripts in `functions.php`
+- [x] replace styles and scripts on `front-page.php` with `wp_head();` and `wp_footer();` 
+- [x] copy file from `theme-template/js/main.js` and paste this JavaScript file into `assets/js`
+- [x] add content from `front-page.php` into `header.php` and `footer.php`  
+- [x] the cut content in `front-page.php` is replaced by the functions `get_header();` and `get_footer();`so WP loads the 2 parts of the website dynamically 
+- [x] add page title to load dynamically with function `hamlet_theme_support` in `functions.php` 
 
 
 
