@@ -1,5 +1,19 @@
 <?php
 
+/* START - to have WP load dynamically the title tag
+and it works as long as wp_head(); is in header.php
+*/
+
+function hamlet_theme_support() {
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'hamlet_theme_support');
+
+// END - to have WP load dynamically the title tag
+
+
+
 // START - to register and enqueue style.css, bootstrap and font awesome 
 
 function hamlet_register_styles(){
