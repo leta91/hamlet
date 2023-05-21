@@ -16,9 +16,12 @@
 </head> 
 
 <body>
+
+<!--get_bloginfo('name'); loads the site name dynamically and allows to be edited -->
     
     <header class="header text-center">	    
-	    <a class="site-title pt-lg-4 mb-0" href="index.html">Hamlet</a>
+	    <a class="site-title pt-lg-4 mb-0" href="index.html">
+        <?php echo get_bloginfo('name'); ?></a>             
         
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
            
@@ -42,7 +45,7 @@
               <img class="mb-3 mx-auto logo"
                 src="<?php echo $logo[0] ?>" alt="logo" >
             
-                <!-- it will create dynamic WP menus with styling of its elements copied from
+                <!-- it will create dynamic primary menu with styling of <ul> copied from
                 the HTML template -->
 
                 <?php
