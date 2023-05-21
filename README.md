@@ -1,6 +1,6 @@
 # Hamlet 🎭
 
-## A WordPress theme converted from a HTML ➕ CSS template 🎀 
+## A WordPress theme converted from an HTML ➕ CSS template 🎀 
 
 
 | WordPress version | Web server version | PHP version | Database version |
