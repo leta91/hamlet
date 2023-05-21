@@ -6,6 +6,7 @@ and it works as long as wp_head(); is in header.php */
 function hamlet_theme_support() {
     add_theme_support('title-tag');
     add_theme_support('custom-logo');  // adding option to add and customize logo from WP back end 
+    add_theme_support('post-thumbnails'); // adding option to set a featured image to posts
 }                                                      
 
 add_action('after_setup_theme', 'hamlet_theme_support');
