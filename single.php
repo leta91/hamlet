@@ -10,7 +10,7 @@
 		while( have_posts()) {
 			                      // The WordPress Loop
 			the_post();              
-			the_content();
+			get_template_part('template-parts/content', 'article'); // it will look for content-article
 		}
 	  }
 	?>
