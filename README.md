@@ -69,6 +69,12 @@ As long as `have_posts()` continues to be true, the loop will continue
 - [x] in `functions.php` add option to have **featured image** on posts with `add_theme_support('post-thumbnails')`
 - [x] copy full content of `front-page.php` into `single.php`<br>
 This will display each post with its content instead of blank pages
+- [x] add several posts with different thumbnails
+- [x] create new file `content-article.php` in `template-parts` 📁 and link it through code to 'single.php'
+- [x] insert post meta data (copy this specific section from 'theme-template/post.html' to 'template-parts/content-article.php') and replace hardcoded parts with PHP 🐘
+- [x] set up configuration of the comment section from 'comment.php' 
+
+
 
 
 
