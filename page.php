@@ -1,3 +1,24 @@
-<?php
 
-// this file is used to display static pages (such as "About Us")
+<?php
+  get_header();     // loads header template
+?>
+    
+    <article class="content px-3 py-5 p-md-5">
+
+
+	<?php
+	  if(have_posts() ){
+		while( have_posts()) {
+			                      // The WordPress Loop
+			the_post();              
+			get_template_part('template-parts/content', 'page'); // it will look for content-page
+		}
+	  }
+	?>
+	    
+	    </article>
+	    
+
+	<?php
+	  get_footer();    // loads footer template
+	?>

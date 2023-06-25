@@ -73,6 +73,13 @@ This will display each post with its content instead of blank pages
 - [x] create new file `content-article.php` in `template-parts` 📁 and link it through code to 'single.php'
 - [x] insert post meta data (copy this specific section from 'theme-template/post.html' to 'template-parts/content-article.php') and replace hardcoded parts with PHP 🐘
 - [x] set up configuration of the comment section from 'comment.php' 
+- [x] set up `archive.php` and link it to the newly created file `content-article.php` in `template-parts` 📁
+- [x] copy all `archive.php` into `index.php`
+- [x] set new post images as thumbnails all displayed in the same size `the_post_thumbnail_url('thumbnail')`and delete the old thumbnail images 
+- [x] include pagination and clickable post titles 🖱️
+- [x] the newly created `content-page.php` within `template-parts` 📁 allows to display content for Sample Page, About, Contact Us
+- [x] allow edits of sidebar by writing code in `functions.php`. This creates the path: Appearance ➡️ Widget ▶️ Sidebar-1 (on WP backend)
+
 
 
 
