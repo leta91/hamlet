@@ -4,7 +4,12 @@
           
            <?php
         dynamic_sidebar('footer-1');  // to output footer
+      
+      get_search_form();              // to display search form
+      
       ?>
+
+   
 
        </footer>
    
