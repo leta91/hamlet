@@ -86,15 +86,25 @@ function hamlet_widget_areas() {
         array(
             'before_title' => '',
             'after_title' => '',
-            'before_widget' => '',
-            'after_widget' => '',
-        ),
-        array(
+            'before_widget' => '<ul class="social-list list-inline py-3 mx-auto">',
+            'after_widget' => '</ul>',
             'name' => 'Sidebar Area',
             'id' => 'sidebar-1',
             'description' => 'Sidebar Widget Area'
         )
         );
+
+        register_sidebar(
+            array(
+                'before_title' => '',
+                'after_title' => '',
+                'before_widget' => '<ul class="social-list list-inline py-3 mx-auto">',
+                'after_widget' => '</ul>',
+                'name' => 'Footer Area',
+                'id' => 'footer-1',
+                'description' => 'Footer Widget Area'
+            )
+            );
 }
 add_action( 'widgets_init', 'hamlet_widget_areas' );
 
