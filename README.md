@@ -83,6 +83,8 @@ This will display each post with its content instead of blank pages
 - [x] cut and paste social media icons from `header.php` to Sidebar Area (on WP backend) so they are easily customizable 
 - [x] register footer widget from `functions.php`
 - [x] output footer widget from `footer.php`
+- [x] add 404 page ➕ search box by copying `index.php` and pasting it into `404.php`
+- [x] to display results in the search box, copy `archive.php` and paste it into `search.php` as they are similar pages   
 
 
 
