@@ -2,6 +2,10 @@
 		   
            <p class="copyright"><a href="https://letiziadimaio.netlify.app/">Letizia DI MAIO</a></p>
           
+           <?php
+        dynamic_sidebar('footer-1');  // to output footer
+      ?>
+
        </footer>
    
    </div>
