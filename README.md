@@ -82,6 +82,7 @@ This will display each post with its content instead of blank pages
 - [x] output sidebar from `header.php`given that the sidebar is located there
 - [x] cut and paste social media icons from `header.php` to Sidebar Area (on WP backend) so they are easily customizable 
 - [x] register footer widget from `functions.php`
+- [x] output footer widget from `footer.php`
 
 
 
