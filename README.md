@@ -78,7 +78,10 @@ This will display each post with its content instead of blank pages
 - [x] set new post images as thumbnails all displayed in the same size `the_post_thumbnail_url('thumbnail')`and delete the old thumbnail images 
 - [x] include pagination and clickable post titles 🖱️
 - [x] the newly created `content-page.php` within `template-parts` 📁 allows to display content for Sample Page, About, Contact Us
-- [x] register sidebar by writing code in `functions.php`. This creates the path: Appearance ➡️ Widget ▶️ Sidebar-1 (on WP backend)
+- [x] register sidebar by writing code in `functions.php`. This creates the path: Appearance ➡️ Widget ▶️ Sidebar Area (on WP backend)
+- [x] output sidebar from `header.php`given that the sidebar is located there
+- [x] cut and paste social media icons from `header.php` to Sidebar Area (on WP backend) so they are easily customizable 
+- [x] register footer widget from `functions.php`
 
 
 
