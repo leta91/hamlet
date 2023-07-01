@@ -11,7 +11,7 @@
         '</span>');                                
 
         ?>
-        <span class="comment"><a href="#comments"><i class="fa fa-comment"></i><?php comments_number(); ?></a></span>
+        <span class="comment"><a href="#comments"><i class="fa fa-comment"></i> Comments</a></span>
      </div>
 	</header>
 
