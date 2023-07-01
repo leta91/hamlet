@@ -84,8 +84,14 @@ This will display each post with its content instead of blank pages
 - [x] register footer widget from `functions.php`
 - [x] output footer widget from `footer.php`
 - [x] add 404 page ➕ search box by copying `index.php` and pasting it into `404.php`
-- [x] to display results in the search box, copy `archive.php` and paste it into `search.php` as they are similar pages   
+- [x] to display results in the search box, copy `archive.php` and paste it into `search.php` as they are similar pages 
 - [x] display search box in the footer widget too from `footer.php`
+- [x] deleted comments count
+- [x] changed site name's URL to WP homepage :house:
+- [x] added thumbnail to *"Hello World"* post :framed_picture:
+- [x] fixed post excerpts on archive page appearing twice
+ 
+
 
 
 
