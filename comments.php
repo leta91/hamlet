@@ -12,7 +12,7 @@
                 echo "Leave a Comment";
                 }
                 else {
-                echo get_comments_number(). " Comments";
+                echo "Comments";
                 }
              ?> 
              
