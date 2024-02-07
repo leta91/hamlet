@@ -20,6 +20,9 @@ As long as `have_posts()` continues to be true, the loop will continue
 
 *Because you do not want to duplicate your header over and over, the loop should always be placed after the call to `get_header()`*
 
+### View Live 🔗
+:alembic: **https://hamlet.letiziadimaio.com/**
+
 ### Tasks ✍️ 
 - [x] create WP Website via Local Development Tool :computer_mouse: [Download Local here](https://localwp.com/)
 
